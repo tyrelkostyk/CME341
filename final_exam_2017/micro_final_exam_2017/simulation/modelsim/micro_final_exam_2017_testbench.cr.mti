@@ -1,0 +1,16 @@
+/home/tck290/engr-ece/CME341/final_exam_2017/micro_final_exam_2017/simulation/modelsim/final_exam_test_bench.v {1 {vlog -work work -stats=none /home/tck290/engr-ece/CME341/final_exam_2017/micro_final_exam_2017/simulation/modelsim/final_exam_test_bench.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module final_exam_testbench
+
+Top level modules:
+	final_exam_testbench
+
+} {} {}} /home/tck290/engr-ece/CME341/final_exam_2017/micro_final_exam_2017/simulation/modelsim/micro.vo {1 {vlog -work work -stats=none /home/tck290/engr-ece/CME341/final_exam_2017/micro_final_exam_2017/simulation/modelsim/micro.vo
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module micro
+-- Compiling module hard_block
+
+Top level modules:
+	micro
+
+} {} {}}

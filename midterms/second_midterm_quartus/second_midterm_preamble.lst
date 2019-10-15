@@ -1,0 +1,35 @@
+  0000                org 8'H00
+  0000 00          load x0,#4'H0;
+  0001 10          load x1,#4'H0;
+  0002 20          load y0,#4'H0;
+  0003 30          load y1,#4'H0;
+  0004 40          load o_reg,#4'H0;
+  0005 50          load m,#4'H0;
+  0006 60          load i,#4'H0;
+  0007 70          load dm,#4'H0;
+  0008 80          mov x0, ipins;
+  0009 88          mov x1, x0;
+  000A 91          mov y0, x1;
+  000B 9A          mov y1, y0;
+  000C A3          mov o_reg, y1;
+  000D AC          mov m, r;
+  000E B5          mov  i, m;
+  000F BE          mov dm, i;
+                
+  0010             org 8'H10
+  0010 C2          add x0,y0;
+  0011 E2          jmp 8'H20
+                
+  0020             org 8'H20
+  0020 F2          jnz 8'H20;
+  0021 E3          jmp 8'H30;
+                
+  0030             org 8'H30
+  0030 F3          jnz 8'H30
+  0031 E2          jmp 8'H20;
+                
+                
+
+
+	Symbol Table
+

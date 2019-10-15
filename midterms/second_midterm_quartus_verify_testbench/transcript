@@ -1,0 +1,6 @@
+# Loading project second_midterm_verify_testbench
+vsim -view gold=second_midterm_preamble.wlf
+# second_midterm_preamble.wlf opened as dataset "gold"
+do second_midterm_preamble.do
+quit -sim
+# Break key hit

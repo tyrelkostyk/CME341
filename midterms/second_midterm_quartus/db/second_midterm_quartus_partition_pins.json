@@ -1,0 +1,241 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "sync_reset",
+					"strict" : false
+				},
+				{
+					"name" : "pm_address[0]",
+					"strict" : false
+				},
+				{
+					"name" : "pm_address[1]",
+					"strict" : false
+				},
+				{
+					"name" : "pm_address[2]",
+					"strict" : false
+				},
+				{
+					"name" : "pm_address[3]",
+					"strict" : false
+				},
+				{
+					"name" : "pm_address[4]",
+					"strict" : false
+				},
+				{
+					"name" : "pm_address[5]",
+					"strict" : false
+				},
+				{
+					"name" : "pm_address[6]",
+					"strict" : false
+				},
+				{
+					"name" : "pm_address[7]",
+					"strict" : false
+				},
+				{
+					"name" : "pm_data[0]",
+					"strict" : false
+				},
+				{
+					"name" : "pm_data[1]",
+					"strict" : false
+				},
+				{
+					"name" : "pm_data[2]",
+					"strict" : false
+				},
+				{
+					"name" : "pm_data[3]",
+					"strict" : false
+				},
+				{
+					"name" : "pm_data[4]",
+					"strict" : false
+				},
+				{
+					"name" : "pm_data[5]",
+					"strict" : false
+				},
+				{
+					"name" : "pm_data[6]",
+					"strict" : false
+				},
+				{
+					"name" : "pm_data[7]",
+					"strict" : false
+				},
+				{
+					"name" : "jump",
+					"strict" : false
+				},
+				{
+					"name" : "conditional_jump",
+					"strict" : false
+				},
+				{
+					"name" : "x_mux_select",
+					"strict" : false
+				},
+				{
+					"name" : "y_mux_select",
+					"strict" : false
+				},
+				{
+					"name" : "i_mux_select",
+					"strict" : false
+				},
+				{
+					"name" : "source_register_select[0]",
+					"strict" : false
+				},
+				{
+					"name" : "source_register_select[1]",
+					"strict" : false
+				},
+				{
+					"name" : "source_register_select[2]",
+					"strict" : false
+				},
+				{
+					"name" : "source_register_select[3]",
+					"strict" : false
+				},
+				{
+					"name" : "LS_nibble_of_ir[0]",
+					"strict" : false
+				},
+				{
+					"name" : "LS_nibble_of_ir[1]",
+					"strict" : false
+				},
+				{
+					"name" : "LS_nibble_of_ir[2]",
+					"strict" : false
+				},
+				{
+					"name" : "LS_nibble_of_ir[3]",
+					"strict" : false
+				},
+				{
+					"name" : "register_enables[0]",
+					"strict" : false
+				},
+				{
+					"name" : "register_enables[1]",
+					"strict" : false
+				},
+				{
+					"name" : "register_enables[2]",
+					"strict" : false
+				},
+				{
+					"name" : "register_enables[3]",
+					"strict" : false
+				},
+				{
+					"name" : "register_enables[4]",
+					"strict" : false
+				},
+				{
+					"name" : "register_enables[5]",
+					"strict" : false
+				},
+				{
+					"name" : "register_enables[6]",
+					"strict" : false
+				},
+				{
+					"name" : "register_enables[7]",
+					"strict" : false
+				},
+				{
+					"name" : "register_enables[8]",
+					"strict" : false
+				},
+				{
+					"name" : "pc[0]",
+					"strict" : false
+				},
+				{
+					"name" : "pc[1]",
+					"strict" : false
+				},
+				{
+					"name" : "pc[2]",
+					"strict" : false
+				},
+				{
+					"name" : "pc[3]",
+					"strict" : false
+				},
+				{
+					"name" : "pc[4]",
+					"strict" : false
+				},
+				{
+					"name" : "pc[5]",
+					"strict" : false
+				},
+				{
+					"name" : "pc[6]",
+					"strict" : false
+				},
+				{
+					"name" : "pc[7]",
+					"strict" : false
+				},
+				{
+					"name" : "instr_register[0]",
+					"strict" : false
+				},
+				{
+					"name" : "instr_register[1]",
+					"strict" : false
+				},
+				{
+					"name" : "instr_register[2]",
+					"strict" : false
+				},
+				{
+					"name" : "instr_register[3]",
+					"strict" : false
+				},
+				{
+					"name" : "instr_register[4]",
+					"strict" : false
+				},
+				{
+					"name" : "instr_register[5]",
+					"strict" : false
+				},
+				{
+					"name" : "instr_register[6]",
+					"strict" : false
+				},
+				{
+					"name" : "instr_register[7]",
+					"strict" : false
+				},
+				{
+					"name" : "zero_flag",
+					"strict" : false
+				},
+				{
+					"name" : "reset",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

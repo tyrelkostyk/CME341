@@ -1,0 +1,65 @@
+# Loading project second_midterm_testbench
+# Compile of second_midterm_quartus.vo was successful.
+# Compile of second_midterm_testbench.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.second_midterm_testbench -L cycloneive_ver -L altera_ver -L altera_mf_ver
+# vsim work.second_midterm_testbench -L cycloneive_ver -L altera_ver -L altera_mf_ver 
+# Start time: 11:10:36 on Nov 06,2018
+# Loading work.second_midterm_testbench
+# Loading work.second_midterm_quartus
+# Loading work.hard_block
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_clkctrl
+# Loading cycloneive_ver.cycloneive_mux41
+# Loading cycloneive_ver.cycloneive_ena_reg
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading altera_ver.dffeas
+# Loading cycloneive_ver.cycloneive_ram_block
+# Loading cycloneive_ver.cycloneive_ram_register
+# Loading cycloneive_ver.cycloneive_ram_pulse_generator
+# SDF 10.5b Compiler 2016.10 Oct  5 2016
+# Loading instances from second_midterm_quartus_v.sdo
+# Loading altera_ver.PRIM_GDFF_LOW
+# Loading timing data from second_midterm_quartus_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /second_midterm_testbench File: /home/tck290/engr-ece/CME341/old_second_midterms/2016_midterm/second_midterm_quartus/simulation/modelsim/second_midterm_testbench.v
+do wave.do
+run -all
+# ** Note: $stop    : /home/tck290/engr-ece/CME341/old_second_midterms/2016_midterm/second_midterm_quartus/simulation/modelsim/second_midterm_testbench.v(25)
+#    Time: 640 us  Iteration: 0  Instance: /second_midterm_testbench
+# Break in Module second_midterm_testbench at /home/tck290/engr-ece/CME341/old_second_midterms/2016_midterm/second_midterm_quartus/simulation/modelsim/second_midterm_testbench.v line 25
+# Compile of second_midterm_quartus.vo was successful.
+# Compile of second_midterm_testbench.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -L cycloneive_ver -L altera_ver -L altera_mf_ver work.second_midterm_testbench
+# End time: 11:18:06 on Nov 06,2018, Elapsed time: 0:07:30
+# Errors: 0, Warnings: 0
+# vsim -L cycloneive_ver -L altera_ver -L altera_mf_ver work.second_midterm_testbench 
+# Start time: 11:18:06 on Nov 06,2018
+# Loading work.second_midterm_testbench
+# Loading work.second_midterm_quartus
+# Loading work.hard_block
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_clkctrl
+# Loading cycloneive_ver.cycloneive_mux41
+# Loading cycloneive_ver.cycloneive_ena_reg
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading altera_ver.dffeas
+# Loading cycloneive_ver.cycloneive_ram_block
+# Loading cycloneive_ver.cycloneive_ram_register
+# Loading cycloneive_ver.cycloneive_ram_pulse_generator
+# SDF 10.5b Compiler 2016.10 Oct  5 2016
+# Loading instances from second_midterm_quartus_v.sdo
+# Loading altera_ver.PRIM_GDFF_LOW
+# Loading timing data from second_midterm_quartus_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /second_midterm_testbench File: /home/tck290/engr-ece/CME341/old_second_midterms/2016_midterm/second_midterm_quartus/simulation/modelsim/second_midterm_testbench.v
+do wave.do
+run -all
+# ** Note: $stop    : /home/tck290/engr-ece/CME341/old_second_midterms/2016_midterm/second_midterm_quartus/simulation/modelsim/second_midterm_testbench.v(25)
+#    Time: 640 us  Iteration: 0  Instance: /second_midterm_testbench
+# Break in Module second_midterm_testbench at /home/tck290/engr-ece/CME341/old_second_midterms/2016_midterm/second_midterm_quartus/simulation/modelsim/second_midterm_testbench.v line 25
+# End time: 11:18:24 on Nov 06,2018, Elapsed time: 0:00:18
+# Errors: 0, Warnings: 0

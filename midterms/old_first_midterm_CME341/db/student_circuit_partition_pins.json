@@ -1,0 +1,53 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "cct_output[0]",
+					"strict" : false
+				},
+				{
+					"name" : "cct_output[1]",
+					"strict" : false
+				},
+				{
+					"name" : "cct_output[2]",
+					"strict" : false
+				},
+				{
+					"name" : "cct_output[3]",
+					"strict" : false
+				},
+				{
+					"name" : "cct_output[5]",
+					"strict" : false
+				},
+				{
+					"name" : "cct_output[6]",
+					"strict" : false
+				},
+				{
+					"name" : "cct_output[7]",
+					"strict" : false
+				},
+				{
+					"name" : "cct_input[2]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "cct_input[0]",
+					"strict" : false
+				},
+				{
+					"name" : "cct_input[7]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

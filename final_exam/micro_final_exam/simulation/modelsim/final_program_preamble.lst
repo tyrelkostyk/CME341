@@ -1,0 +1,202 @@
+  0000                 	org 0000
+  0000 40       	load o_reg,#4'H0
+  0001 51              	load M,#4'H1	
+  0002 60             	load I,#4'H0	
+  0003 80            	mov X0,ireg	
+  0004 88            	mov X1,X0	
+  0005 91            	mov Y0,X1	
+  0006 9A             	mov Y1,Y0	
+  0007 BB            	mov DM,Y1	
+  0008 BE             	mov DM,I	
+  0009 BE             	mov DM,I	
+  000A BE             	mov DM,I	
+  000B BE              	mov DM,I	
+  000C BE            	mov DM,I
+  000D BE             	mov DM,I
+  000E BE             	mov DM,I
+  000F BE            	mov DM,I
+  0010 BE             	mov DM,I
+  0011 BE           	mov DM,I
+  0012 BE           	mov DM,I
+  0013 BE            	mov DM,I
+  0014 BE            	mov DM,I
+  0015 BE            	mov DM,I
+  0016 BE            	mov DM,I	
+  0017 E2             	jmp sum
+  0020               	align
+  0020 97       sum: mov Y0,DM
+  0021 C2              	add X0,Y0
+  0022 84          	mov X0,R
+  0023 8E           	mov X1,I
+  0024 D7          	com X1	
+  0025 F2            	JNZ sum
+  0026 A0           	mov oreg,X0
+  0027 40           	load oreg,#4'H0  
+  0028 E3            	jmp ALU
+  0030                  align
+  0030 40       ALU:   load oreg,#4'H0;  oreg = 0
+  0031 05        	load x0,#4'H5;     x0 = 5
+  0032 1A       	load x1,#4'HA;     x1 = A
+  0033 23        	load y0,#4'H3;     y0 = 3
+  0034 3C       	load y1,#4'HC;     y1 = C
+                         ;
+                         ;  Test negate (2's complement) function r = -x0 or r = -x1
+                         ;
+  0035 C0       	neg x0;            r  = -x0
+  0036 A4        	mov oreg,r;       oreg = B $$$$$$$$
+  0037 D0        	neg x1;
+  0038 A4        	mov oreg,r;       oreg = 6 $$$$$$$$
+  0039 40         	load oreg,#4'H0;  oreg = 0 ********
+                         ;
+                         ;  Test subtract r = x - y, where x could be x0 ro x1 and
+                         ;  y could be y0 o y1
+                         ;
+  003A C1       	sub x0,y0;         r = x0 - y0
+  003B A4         	mov oreg,r;       oreg = 2 $$$$$$$$
+  003C D9       	sub x1,y1;     
+  003D A4       	mov oreg,r;       oreg = E $$$$$$$$
+  003E C9       	sub x0,y1;
+  003F A4       	mov oreg,r;       oreg = 9 $$$$$$$$
+  0040 D1       	sub x1,y0;     
+  0041 A4       	mov oreg,r;       oreg = 7 $$$$$$$$
+  0042 40       	load oreg,#4'H0;  oreg = 0 ********
+                         ;
+                         ; Test add  r = x + y
+                         ;
+  0043 C2       	add x0,y0;         r = x0 + y0
+  0044 A4         	mov oreg,r;       oreg = 8 $$$$$$$$
+  0045 DA       	add x1,y1;     
+  0046 A4       	mov oreg,r;       oreg = 6 $$$$$$$$
+  0047 40       	load oreg,#4'H0;  oreg = 0 ********
+                         ;
+                         ; Test and  r = x & y
+                         ;
+  0048 C6       	and x0,y0;         r = x0 & y0
+  0049 A4       	mov oreg,r;       oreg = 1 $$$$$$$$
+  004A DE        	and x1,y1;     
+  004B A4       	mov oreg,r;       oreg = 8 $$$$$$$$
+  004C 40       	load oreg,#4'H0;  oreg = 0 ********
+                         ;
+                         ; Test high nibble of multply  r = x times y
+                         ;
+  004D D3       	mulhi x1,y0;       r = ms 4 bits of x1 x y0
+  004E A4       	mov oreg,r;       oreg = 1 $$$$$$$$
+  004F DB       	mulhi x1,y1;     
+  0050 A4       	mov oreg,r;       oreg = 7 $$$$$$$$
+  0051 40       	load oreg,#4'H0;  oreg = 0 ********
+                         ;
+                         ; Test low nibble of multply  r = x times y
+                         ;
+  0052 D4       	mullo x1,y0;       r = ls 4 bits of x1 x y0
+  0053 A4         	mov oreg,r;       oreg = E $$$$$$$$
+  0054 DC       	mullo x1,y1;     
+  0055 A4        	mov oreg,r;       oreg = 8 $$$$$$$$
+  0056 40       	load oreg,#4'H0;  oreg = 0 ********
+                         ;
+                         ; Test and  r = x ^ y
+                         ;
+  0057 D5       	xor x1,y0;         r = x1 ^ y0
+  0058 A4         	mov oreg,r;       oreg = 9 $$$$$$$$
+  0059 C5       	xor x0,y0;     
+  005A A4       	mov oreg,r;       oreg = 6 $$$$$$$$
+  005B 40       	load oreg,#4'H0;  oreg = 0 ********
+                         ;
+                         ;  Test 1's complement  r = ~x0 or r = ~x1
+                         ;
+  005C C7       	com x0;            r  = ~x0
+  005D A4       	mov oreg,r;       oreg = A $$$$$$$$
+  005E D7       	com x1;
+  005F A4       	mov oreg,r;       oreg = 5 $$$$$$$$
+  0060 40       	load oreg,#4'H0;  oreg = 0 ******** 
+                         ;
+                         ; ***************************
+                         ; now test the zero flag - making sure it is
+                         ; set and cleared at the right time - not one
+                         ; clock cycle to late
+                         ; ***************************
+                         ;
+  0061 00       	load x0,#4'H0;
+  0062 1A        	load x1,#4'HA;
+  0063 C0       	neg x0;           set zero flag
+  0064 D0       	neg x1;           clear zero flag since r = -x1 = 4'H6
+  0065 F7       	jnz flagcorrect; should jump
+  0066 E8       	jmp flagwrong;   should not reach this instruction
+  0070           	ALIGN
+  0070          flagcorrect:
+  0070 4D       	load oreg,#4'HD; oreg = D $$$$$$$$$$$$$
+  0071 C0       	neg x0;           set zero flag
+  0072 F8        	jnz flagwrong;   should not jump
+  0073 4C       	load oreg,#4'HC; oreg = C $$$$$$$$$$$$$
+  0074 00       	load x0,#4'H0;
+  0075 C0         	neg x0;          r=-4'H0=4'H0 therefore zero flag set
+  0076 4B       	load oreg,#4'HB; a load instr. therefore zero flag should not change
+  0077 F8       	jnz flagwrong;   zero flag = 1'b1 so should not jump
+  0078 40       	load oreg,#4'H0;
+  0079 E9       	jmp NOPC8test;
+  0080          	ALIGN
+  0080          flagwrong:
+  0080 4E       	load oreg,#4'HE; should never happen
+  0081 EC       	jmp done;
+  0090           	ALIGN
+                         ;
+                         ; now test NOPC8
+                         ;
+  0090          NOPC8test: 
+  0090 1F        	load x1,#4'HF;  
+  0091 C8       	NOPC8; should not change r or zero flag
+  0092 FC       	jnz done; zero flag is 1 so should not jump
+  0093 84       	mov x0,r; x0 = 0
+  0094 FC       	jnz done; zero flag is 1 so should not jump
+  0095 9A       	mov y1,y0;  r should not change
+  0096 FC       	jnz done; zero flag is 1 so should not jump
+  0097 57       	load m,#4'H7;  r should not change
+  0098 FC       	jnz done; zero flag is 1 so should not jump
+  0099 43       	load oreg,#4'H3; oreg = 3
+  009A D7       	com x1;   r=~F=0 so zero flag should get set
+  009B FC       	jnz done;  should not jump
+  009C 42       	load oreg,#4'H2; oreg = 2
+  009D D0       	neg x1;   r=-F=1 so zero flag should be cleared
+  009E C8       	NOPC8;
+  009F A4       	mov oreg,r;  oreg = 1
+  00A0 40       	load oreg,#4'H0; oreg = 0
+                         ;
+                         ; now test NOPCF
+                         ;
+  00A1          NOPCFtest: 
+  00A1 D7       	com x1;  x1 = F
+  00A2 CF       	NOPCF; should not change r or zero flag
+  00A3 FC       	jnz done; zero flag is 1 so should not jump
+  00A4 84       	mov x0,r; x0 = 0
+  00A5 FC       	jnz done; zero flag is 1 so should not jump
+  00A6 9A       	mov y1,y0;  r should not change
+  00A7 FC       	jnz done; zero flag is 1 so should not jump
+  00A8 57       	load m,#4'H7;  r should not change
+  00A9 FC       	jnz done; zero flag is 1 so should not jump
+  00AA 49       	load oreg,#4'H9; oreg = 9
+  00AB D7       	com x1;   r=~F=0 so zero flag should get set
+  00AC FC       	jnz done;  should not jump
+  00AD 48       	load oreg,#4'H8; oreg = 8
+  00AE D0       	neg x1;   r=-F=1 so zero flag should be cleared
+  00AF CF       	NOPCF;
+  00B0 A4       	mov oreg,r;  oreg = 1 ************
+  00B1 40       	load oreg,#4'H0; oreg = 0  **************
+  00B2 EC       	jmp done;
+  00C0          	ALIGN
+                                
+                                        
+  00C0 40       done:   load oreg,#4'H0;  oreg = 0   **************
+  00C1 00               load x0,#4'H0;
+  00C2 C6               and x0,y0;    clear r
+  00C3 EC       	jmp done;
+
+
+	Symbol Table
+
+	done		C0H
+	NOPCFtest	A1H
+	ALU		30H
+	NOPC8test	90H
+	sum		20H
+	flagcorrect	70H
+	flagwrong	80H
+

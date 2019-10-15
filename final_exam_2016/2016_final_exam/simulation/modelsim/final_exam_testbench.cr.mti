@@ -1,0 +1,16 @@
+/home/bbs048/engr-ece/CME341/2016_final_exam/simulation/modelsim/final_exam_test_bench.v {1 {vlog -work work -stats=none /home/bbs048/engr-ece/CME341/2016_final_exam/simulation/modelsim/final_exam_test_bench.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module final_exam_testbench
+
+Top level modules:
+	final_exam_testbench
+
+} {} {}} /home/bbs048/engr-ece/CME341/2016_final_exam/simulation/modelsim/microprocessor.vo {1 {vlog -work work -stats=none /home/bbs048/engr-ece/CME341/2016_final_exam/simulation/modelsim/microprocessor.vo
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module microprocessor
+-- Compiling module hard_block
+
+Top level modules:
+	microprocessor
+
+} {} {}}

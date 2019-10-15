@@ -1,0 +1,8 @@
+module student_circuit (
+          input clk, clear,
+          input [7:0] cct_input,
+          output reg [7:0] cct_output  // for the answers
+			 );
+
+
+endmodule

@@ -1,0 +1,73 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/tck290/engr-ece
+vfinal_exam_asm_testing
+!s110 1544742764
+!i10b 1
+!s100 z8SQfbQ>HODX>Ud_g`CJ@2
+I1ha`91dF58@YK8[gfACa<1
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+Z1 d/home/tck290/engr-ece/CME341/final_micro_asm_testing/simulation/modelsim
+w1544731403
+8/home/tck290/engr-ece/CME341/final_micro_asm_testing/simulation/modelsim/final_exam_asm_testing.v
+F/home/tck290/engr-ece/CME341/final_micro_asm_testing/simulation/modelsim/final_exam_asm_testing.v
+L0 3
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z3 !s108 1544742763.000000
+!s107 /home/tck290/engr-ece/CME341/final_micro_asm_testing/simulation/modelsim/final_exam_asm_testing.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/tck290/engr-ece/CME341/final_micro_asm_testing/simulation/modelsim/final_exam_asm_testing.v|
+!i113 1
+Z4 o-work work
+Z5 tCvgOpt 0
+vhard_block
+Z6 !s110 1544742763
+!i10b 1
+!s100 B`Bii^XUk:_77<_U[jMB_2
+IQ50WVRXBk<@?fZ7c5=HKz1
+R0
+R1
+Z7 w1544734417
+Z8 8/home/tck290/engr-ece/CME341/final_micro_asm_testing/simulation/modelsim/micro.vo
+Z9 F/home/tck290/engr-ece/CME341/final_micro_asm_testing/simulation/modelsim/micro.vo
+L0 6562
+R2
+r1
+!s85 0
+31
+R3
+Z10 !s107 /home/tck290/engr-ece/CME341/final_micro_asm_testing/simulation/modelsim/micro.vo|
+Z11 !s90 -reportprogress|300|-work|work|-stats=none|/home/tck290/engr-ece/CME341/final_micro_asm_testing/simulation/modelsim/micro.vo|
+!i113 1
+R4
+R5
+vmicro
+R6
+!i10b 1
+!s100 I_JFT;_ohbkc5lf:P1_=93
+IIAFKmRYjLJ4l2=2]M^B<=0
+R0
+R1
+R7
+R8
+R9
+L0 31
+R2
+r1
+!s85 0
+31
+R3
+R10
+R11
+!i113 1
+R4
+R5

@@ -1,0 +1,73 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/tck290/engr-ece
+vhard_block
+Z0 !s110 1541633255
+!i10b 1
+!s100 YU7^m@nmQ3TPSW2ENmh8W1
+IR^njWzHMkIzM4KL03cZ1P3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 d/home/tck290/engr-ece/CME341/old_second_midterms/2017_midterm/second_midterm_quartus/simulation/modelsim
+Z3 w1541633244
+Z4 8/home/tck290/engr-ece/CME341/old_second_midterms/2017_midterm/second_midterm_quartus/simulation/modelsim/second_midterm_quartus.vo
+Z5 F/home/tck290/engr-ece/CME341/old_second_midterms/2017_midterm/second_midterm_quartus/simulation/modelsim/second_midterm_quartus.vo
+L0 3101
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1541633254.000000
+Z8 !s107 /home/tck290/engr-ece/CME341/old_second_midterms/2017_midterm/second_midterm_quartus/simulation/modelsim/second_midterm_quartus.vo|
+Z9 !s90 -reportprogress|300|-work|work|-stats=none|/home/tck290/engr-ece/CME341/old_second_midterms/2017_midterm/second_midterm_quartus/simulation/modelsim/second_midterm_quartus.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+vsecond_midterm_quartus
+R0
+!i10b 1
+!s100 7`^94QD15QH<kNRgm45n=1
+Iz7meQGKQ[06babWjcKPc@2
+R1
+R2
+R3
+R4
+R5
+L0 31
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vsecond_midterm_testbench
+R0
+!i10b 1
+!s100 4d;SSB8bZJE:I=T6Ml?Wo1
+Iz=Am_fJQVeMkKRbZMi3iA0
+R1
+R2
+w1541517056
+8/home/tck290/engr-ece/CME341/old_second_midterms/2017_midterm/second_midterm_quartus/simulation/modelsim/second_midterm_testbench.v
+F/home/tck290/engr-ece/CME341/old_second_midterms/2017_midterm/second_midterm_quartus/simulation/modelsim/second_midterm_testbench.v
+L0 2
+R6
+r1
+!s85 0
+31
+!s108 1541633255.000000
+!s107 /home/tck290/engr-ece/CME341/old_second_midterms/2017_midterm/second_midterm_quartus/simulation/modelsim/second_midterm_testbench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/tck290/engr-ece/CME341/old_second_midterms/2017_midterm/second_midterm_quartus/simulation/modelsim/second_midterm_testbench.v|
+!i113 1
+R10
+R11

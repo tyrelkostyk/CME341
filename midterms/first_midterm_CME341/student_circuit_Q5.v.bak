@@ -1,0 +1,10 @@
+module student_circuit_Q5 (
+          input clk, clear,
+          input [7:0] cct_input,
+          output reg [7:0] cct_output
+			 );
+
+always @ *
+cct_output = {cct_input >> 2};
+
+endmodule

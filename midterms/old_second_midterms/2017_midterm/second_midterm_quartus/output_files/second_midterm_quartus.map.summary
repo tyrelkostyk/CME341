@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Wed Nov  7 17:26:58 2018
+Quartus Prime Version : 18.0.0 Build 614 04/24/2018 SJ Standard Edition
+Revision Name : second_midterm_quartus
+Top-level Entity Name : second_midterm_quartus
+Family : Cyclone IV E
+Total logic elements : 76
+    Total combinational functions : 67
+    Dedicated logic registers : 21
+Total registers : 21
+Total pins : 74
+Total virtual pins : 0
+Total memory bits : 2,048
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

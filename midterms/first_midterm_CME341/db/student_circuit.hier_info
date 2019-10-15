@@ -1,0 +1,44 @@
+|student_circuit
+clk => clk.IN1
+clear => clear.IN1
+cct_input[0] => cct_input[0].IN1
+cct_input[1] => cct_input[1].IN1
+cct_input[2] => cct_input[2].IN1
+cct_input[3] => cct_input[3].IN1
+cct_input[4] => cct_input[4].IN1
+cct_input[5] => cct_input[5].IN1
+cct_input[6] => cct_input[6].IN1
+cct_input[7] => cct_input[7].IN1
+cct_output[0] << student_circuit_Q5:the_cct.cct_output
+cct_output[1] << student_circuit_Q5:the_cct.cct_output
+cct_output[2] << student_circuit_Q5:the_cct.cct_output
+cct_output[3] << student_circuit_Q5:the_cct.cct_output
+cct_output[4] << student_circuit_Q5:the_cct.cct_output
+cct_output[5] << student_circuit_Q5:the_cct.cct_output
+cct_output[6] << student_circuit_Q5:the_cct.cct_output
+cct_output[7] << student_circuit_Q5:the_cct.cct_output
+
+
+|student_circuit|student_circuit_Q5:the_cct
+clk => ~NO_FANOUT~
+clear => ~NO_FANOUT~
+cct_input[0] => ~NO_FANOUT~
+cct_input[1] => ~NO_FANOUT~
+cct_input[2] => cct_output[0].DATAIN
+cct_input[3] => cct_output[1].DATAIN
+cct_input[4] => cct_output[2].DATAIN
+cct_input[5] => cct_output[3].DATAIN
+cct_input[6] => cct_output[4].DATAIN
+cct_input[7] => cct_output[5].DATAIN
+cct_input[7] => cct_output[7].DATAIN
+cct_input[7] => cct_output[6].DATAIN
+cct_output[0] <= cct_input[2].DB_MAX_OUTPUT_PORT_TYPE
+cct_output[1] <= cct_input[3].DB_MAX_OUTPUT_PORT_TYPE
+cct_output[2] <= cct_input[4].DB_MAX_OUTPUT_PORT_TYPE
+cct_output[3] <= cct_input[5].DB_MAX_OUTPUT_PORT_TYPE
+cct_output[4] <= cct_input[6].DB_MAX_OUTPUT_PORT_TYPE
+cct_output[5] <= cct_input[7].DB_MAX_OUTPUT_PORT_TYPE
+cct_output[6] <= cct_input[7].DB_MAX_OUTPUT_PORT_TYPE
+cct_output[7] <= cct_input[7].DB_MAX_OUTPUT_PORT_TYPE
+
+

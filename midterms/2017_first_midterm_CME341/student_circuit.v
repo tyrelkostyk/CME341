@@ -1,0 +1,36 @@
+module student_circuit (
+          input clk, clear,
+          input [7:0] cct_input,
+//	  output reg [7:0] cct_output // for preamble
+          output [7:0] cct_output  // for the answers
+			 );
+
+/*
+// comment this always procedure out when computing answers
+// also change cct_output from reg to wire
+			 
+  always @ *
+         if (clear)
+			   cct_output  = 8'H0; 
+			else	
+            cct_output  = cct_input;
+*/ 
+
+/*  NB: It is strongly suggested that this module be organized so that all questions can be answered using a single quartus project. 
+This can be done by deleting the always procedure above and answering the questions in separate modules, perhaps named student_circuit_Q1, student_circuit_Q2, student_circuit_Q3 and student_circuit_Q4.
+Then one of these modules is instantiate within this module.  For example the answer to question 1, 2, 3, or 4 is answered by uncommenting the instantiation of interest 
+ */
+ 
+// comment this section out when generating preamble solution
+
+// student_circuit_Q1 the_cct(			 
+// student_circuit_Q2 the_cct(			 
+ student_circuit_Q3 the_cct(	
+// student_circuit_Q4 the_cct(	
+// student_circuit_Q5 the_cct(		 		 
+          .clk(clk), .clear(clear),
+          .cct_input(cct_input),
+          .cct_output(cct_output) );
+  
+  
+endmodule

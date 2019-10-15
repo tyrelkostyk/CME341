@@ -1,0 +1,62 @@
+                ;
+                ;   This program for tests part of the EE431 miroprocessor 
+                ;   The test result requires that all the register and the
+                ;   memory work for either load or mov instructions
+                ;
+                ;   The enitire program is in a loop. The loop starts by 
+                ;   loading 1 into the M register and 0 into the I register. 
+                ;   It then mov I_pins (ireg) to location 0 of data memory
+                ;   through a chain of moves from X0 to X1 to Y0 to Y1 to DM.
+                ;   It then executes a loop which sum the sixteen numbers stored
+                ;   in data memory. It then writes this number to o_reg and then
+                ;   clears o_reg in the next instruction.  After clearing o_reg
+                ;   the program jumps to the beginning
+                ;
+                ;   The output is a series of pulse on oreg with the value of
+                ;   oreg=2*IREG+9, where the value of IREG is sampled at the end of 
+                ;   the third instruction which occurs 4 clock edges after reset
+                ;   goes low and again 4 clock periods after oreg is cleared.
+                
+                
+  0000          	org 0000
+  0000 51       	load M,#4'H1	
+  0001 60       	load I,#4'H0	
+  0002 80       	mov X0,ireg	
+  0003 88       	mov X1,X0	
+  0004 91       	mov Y0,X1	
+  0005 9A       	mov Y1,Y0	
+  0006 BB       	mov DM,Y1	
+  0007 BE       	mov DM,I	
+  0008 BE       	mov DM,I	
+  0009 BE       	mov DM,I	
+  000A BE       	mov DM,I	
+  000B BE       	mov DM,I
+  000C BE       	mov DM,I
+  000D BE       	mov DM,I
+  000E BE       	mov DM,I
+  000F BE       	mov DM,I
+  0010 BE       	mov DM,I
+  0011 BE       	mov DM,I
+  0012 BE       	mov DM,I
+  0013 BE       	mov DM,I
+  0014 BE       	mov DM,I
+  0015 BE       	mov DM,I	
+  0016 E2       	jmp sum
+  0020          	align
+  0020 97       sum: mov Y0,DM
+  0021 C2       	add X0,Y0
+  0022 84       	mov X0,R
+  0023 8E       	mov X1,I
+  0024 D7       	com X1	
+  0025 F2       	JNZ sum
+  0026 A0       	mov oreg,X0
+  0027 40       	load oreg,#4'H0  
+  0028 E0       	jmp 8'H00
+                
+                
+                
+
+
+	Symbol Table
+
+	sum		20H

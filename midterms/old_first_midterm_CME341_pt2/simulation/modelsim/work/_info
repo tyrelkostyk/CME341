@@ -1,0 +1,73 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/tck290/engr-ece
+vhard_block
+Z0 !s110 1539207376
+!i10b 1
+!s100 jD00bQ;Z4T?zOEOGkPoam0
+IBz8HBK5AT]Xcd^6iGRS<>1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 d/home/tck290/engr-ece/CME341/old_first_midterm_CME341_pt2/simulation/modelsim
+Z3 w1539207349
+Z4 8/home/tck290/engr-ece/CME341/old_first_midterm_CME341_pt2/simulation/modelsim/student_circuit.vo
+Z5 F/home/tck290/engr-ece/CME341/old_first_midterm_CME341_pt2/simulation/modelsim/student_circuit.vo
+L0 748
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1539207376.000000
+Z8 !s107 /home/tck290/engr-ece/CME341/old_first_midterm_CME341_pt2/simulation/modelsim/student_circuit.vo|
+Z9 !s90 -reportprogress|300|-work|work|-stats=none|/home/tck290/engr-ece/CME341/old_first_midterm_CME341_pt2/simulation/modelsim/student_circuit.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+vmidterm_1_testbench
+R0
+!i10b 1
+!s100 <ZT<mAe2ZA`mU2XDZhA>31
+IdY<9XdFg=nMD;1jKFBZ>?2
+R1
+R2
+w1539205602
+8/home/tck290/engr-ece/CME341/old_first_midterm_CME341_pt2/simulation/modelsim/midterm_1_testbench.v
+F/home/tck290/engr-ece/CME341/old_first_midterm_CME341_pt2/simulation/modelsim/midterm_1_testbench.v
+L0 2
+R6
+r1
+!s85 0
+31
+R7
+!s107 /home/tck290/engr-ece/CME341/old_first_midterm_CME341_pt2/simulation/modelsim/midterm_1_testbench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/tck290/engr-ece/CME341/old_first_midterm_CME341_pt2/simulation/modelsim/midterm_1_testbench.v|
+!i113 1
+R10
+R11
+vstudent_circuit
+R0
+!i10b 1
+!s100 `;4d1lKd7hLAIE8hlSabg2
+IM;Tmc2=Rg^mJ`^6=BDnWj3
+R1
+R2
+R3
+R4
+R5
+L0 31
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11

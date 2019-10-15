@@ -1,0 +1,67 @@
+|student_circuit
+clk => clk.IN1
+clear => clear.IN1
+cct_input[0] => cct_input[0].IN1
+cct_input[1] => cct_input[1].IN1
+cct_input[2] => cct_input[2].IN1
+cct_input[3] => cct_input[3].IN1
+cct_input[4] => cct_input[4].IN1
+cct_input[5] => cct_input[5].IN1
+cct_input[6] => cct_input[6].IN1
+cct_input[7] => cct_input[7].IN1
+cct_output[0] <= student_circuit_Q5:the_cct.cct_output
+cct_output[1] <= student_circuit_Q5:the_cct.cct_output
+cct_output[2] <= student_circuit_Q5:the_cct.cct_output
+cct_output[3] <= student_circuit_Q5:the_cct.cct_output
+cct_output[4] <= student_circuit_Q5:the_cct.cct_output
+cct_output[5] <= student_circuit_Q5:the_cct.cct_output
+cct_output[6] <= student_circuit_Q5:the_cct.cct_output
+cct_output[7] <= student_circuit_Q5:the_cct.cct_output
+
+
+|student_circuit|student_circuit_Q5:the_cct
+clk => cct_output[0]~reg0.CLK
+clk => cct_output[1]~reg0.CLK
+clk => cct_output[2]~reg0.CLK
+clk => cct_output[3]~reg0.CLK
+clk => cct_output[4]~reg0.CLK
+clk => cct_output[5]~reg0.CLK
+clk => cct_output[6]~reg0.CLK
+clk => cct_output[7]~reg0.CLK
+clk => Y[0].CLK
+clk => Y[1].CLK
+clk => Y[2].CLK
+clk => Y[3].CLK
+clk => Y[4].CLK
+clk => Y[5].CLK
+clk => Y[6].CLK
+clk => Y[7].CLK
+clear => ~NO_FANOUT~
+cct_input[0] => Decoder0.IN1
+cct_input[0] => Y[5].DATAIN
+cct_input[0] => Y[1].DATAIN
+cct_input[1] => ~NO_FANOUT~
+cct_input[2] => cct_output.OUTPUTSELECT
+cct_input[2] => cct_output.OUTPUTSELECT
+cct_input[2] => cct_output.OUTPUTSELECT
+cct_input[2] => cct_output.OUTPUTSELECT
+cct_input[2] => cct_output.OUTPUTSELECT
+cct_input[2] => cct_output.OUTPUTSELECT
+cct_input[2] => cct_output.OUTPUTSELECT
+cct_input[2] => cct_output.OUTPUTSELECT
+cct_input[3] => ~NO_FANOUT~
+cct_input[4] => ~NO_FANOUT~
+cct_input[5] => ~NO_FANOUT~
+cct_input[6] => ~NO_FANOUT~
+cct_input[7] => Decoder0.IN0
+cct_input[7] => Y[6].DATAIN
+cct_output[0] <= cct_output[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+cct_output[1] <= cct_output[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+cct_output[2] <= cct_output[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+cct_output[3] <= cct_output[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+cct_output[4] <= cct_output[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+cct_output[5] <= cct_output[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+cct_output[6] <= cct_output[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+cct_output[7] <= cct_output[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

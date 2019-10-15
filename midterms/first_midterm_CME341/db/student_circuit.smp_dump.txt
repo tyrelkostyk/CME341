@@ -1,0 +1,7 @@
+
+State Machine - |student_circuit|student_circuit_Q4:the_cct|goofy_counter
+Name goofy_counter.00011000 goofy_counter.00100100 goofy_counter.01000010 goofy_counter.10000001 
+goofy_counter.10000001 0 0 0 0 
+goofy_counter.00100100 0 1 0 1 
+goofy_counter.01000010 0 0 1 1 
+goofy_counter.00011000 1 0 0 1 

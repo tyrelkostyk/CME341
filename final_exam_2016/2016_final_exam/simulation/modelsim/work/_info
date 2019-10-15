@@ -1,0 +1,73 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/bbs048/engr-ece/CME341/2017_final_exam/simulation/modelsim
+vfinal_exam_testbench
+!s110 1545275166
+!i10b 1
+!s100 ^1I?VI990hA2VZOM`;EQF0
+I_6P;=1`WZMHk4fNG6Io583
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+Z1 d/home/bbs048/engr-ece/CME341/2016_final_exam/simulation/modelsim
+w1545155554
+8/home/bbs048/engr-ece/CME341/2016_final_exam/simulation/modelsim/final_exam_test_bench.v
+F/home/bbs048/engr-ece/CME341/2016_final_exam/simulation/modelsim/final_exam_test_bench.v
+L0 2
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z3 !s108 1545275166.000000
+!s107 /home/bbs048/engr-ece/CME341/2016_final_exam/simulation/modelsim/final_exam_test_bench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/bbs048/engr-ece/CME341/2016_final_exam/simulation/modelsim/final_exam_test_bench.v|
+!i113 1
+Z4 o-work work
+Z5 tCvgOpt 0
+vhard_block
+Z6 !s110 1545275167
+!i10b 1
+!s100 e8@@=c21lH1kKzlRJFCiF2
+I6:lU7304e4@=oOKG?7k:z0
+R0
+R1
+Z7 w1545275158
+Z8 8/home/bbs048/engr-ece/CME341/2016_final_exam/simulation/modelsim/microprocessor.vo
+Z9 F/home/bbs048/engr-ece/CME341/2016_final_exam/simulation/modelsim/microprocessor.vo
+L0 6645
+R2
+r1
+!s85 0
+31
+R3
+Z10 !s107 /home/bbs048/engr-ece/CME341/2016_final_exam/simulation/modelsim/microprocessor.vo|
+Z11 !s90 -reportprogress|300|-work|work|-stats=none|/home/bbs048/engr-ece/CME341/2016_final_exam/simulation/modelsim/microprocessor.vo|
+!i113 1
+R4
+R5
+vmicroprocessor
+R6
+!i10b 1
+!s100 M2CRNSg:X6jn3jhJSB4d>1
+IlPSB3Q_kn:=4Hz5eAg?0R3
+R0
+R1
+R7
+R8
+R9
+L0 31
+R2
+r1
+!s85 0
+31
+R3
+R10
+R11
+!i113 1
+R4
+R5

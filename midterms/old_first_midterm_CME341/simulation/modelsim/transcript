@@ -1,0 +1,241 @@
+# Loading project student_circuit_testbench
+# Compile of student_circuit.vo was successful.
+# Compile of student_circuit_testbench.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.midterm_1_testbench -L cycloneive_ver -L altera_ver -L altera_mf_ver
+# vsim work.midterm_1_testbench -L cycloneive_ver -L altera_ver -L altera_mf_ver 
+# Start time: 10:53:16 on Oct 05,2018
+# Loading work.midterm_1_testbench
+# Loading work.student_circuit
+# Loading work.hard_block
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# SDF 10.5b Compiler 2016.10 Oct  5 2016
+# Loading instances from student_circuit_v.sdo
+# Loading timing data from student_circuit_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /midterm_1_testbench File: /home/tck290/engr-ece/CME341/old_first_midterm_CME341/simulation/modelsim/student_circuit_testbench.v
+add wave -position insertpoint  \
+sim:/midterm_1_testbench/clk \
+sim:/midterm_1_testbench/clear \
+sim:/midterm_1_testbench/seed \
+sim:/midterm_1_testbench/stimulus \
+sim:/midterm_1_testbench/student_output \
+sim:/midterm_1_testbench/counter_full_bar \
+sim:/midterm_1_testbench/accumulator_output
+run -all
+# ** Note: $stop    : /home/tck290/engr-ece/CME341/old_first_midterm_CME341/simulation/modelsim/student_circuit_testbench.v(16)
+#    Time: 640 us  Iteration: 0  Instance: /midterm_1_testbench
+# Break in Module midterm_1_testbench at /home/tck290/engr-ece/CME341/old_first_midterm_CME341/simulation/modelsim/student_circuit_testbench.v line 16
+# Compile of student_circuit.vo was successful.
+# Compile of student_circuit_testbench.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -L cycloneive_ver -L altera_ver -L altera_mf_ver work.midterm_1_testbench
+# End time: 11:09:22 on Oct 05,2018, Elapsed time: 0:16:06
+# Errors: 0, Warnings: 0
+# vsim -L cycloneive_ver -L altera_ver -L altera_mf_ver work.midterm_1_testbench 
+# Start time: 11:09:22 on Oct 05,2018
+# Loading work.midterm_1_testbench
+# Loading work.student_circuit
+# Loading work.hard_block
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_clkctrl
+# Loading cycloneive_ver.cycloneive_mux41
+# Loading cycloneive_ver.cycloneive_ena_reg
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading altera_ver.dffeas
+# SDF 10.5b Compiler 2016.10 Oct  5 2016
+# Loading instances from student_circuit_v.sdo
+# Loading altera_ver.PRIM_GDFF_LOW
+# Loading timing data from student_circuit_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /midterm_1_testbench File: /home/tck290/engr-ece/CME341/old_first_midterm_CME341/simulation/modelsim/student_circuit_testbench.v
+add wave -position insertpoint  \
+sim:/midterm_1_testbench/clk \
+sim:/midterm_1_testbench/clear \
+sim:/midterm_1_testbench/seed \
+sim:/midterm_1_testbench/stimulus \
+sim:/midterm_1_testbench/student_output \
+sim:/midterm_1_testbench/counter_full_bar \
+sim:/midterm_1_testbench/accumulator_output
+run -all
+# ** Note: $stop    : /home/tck290/engr-ece/CME341/old_first_midterm_CME341/simulation/modelsim/student_circuit_testbench.v(16)
+#    Time: 640 us  Iteration: 0  Instance: /midterm_1_testbench
+# Break in Module midterm_1_testbench at /home/tck290/engr-ece/CME341/old_first_midterm_CME341/simulation/modelsim/student_circuit_testbench.v line 16
+# Compile of student_circuit.vo was successful.
+# Compile of student_circuit_testbench.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -L cycloneive_ver -L altera_ver -L altera_mf_ver work.midterm_1_testbench
+# End time: 11:13:30 on Oct 05,2018, Elapsed time: 0:04:08
+# Errors: 0, Warnings: 0
+# vsim -L cycloneive_ver -L altera_ver -L altera_mf_ver work.midterm_1_testbench 
+# Start time: 11:13:30 on Oct 05,2018
+# Loading work.midterm_1_testbench
+# Loading work.student_circuit
+# Loading work.hard_block
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_clkctrl
+# Loading cycloneive_ver.cycloneive_mux41
+# Loading cycloneive_ver.cycloneive_ena_reg
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading altera_ver.dffeas
+# SDF 10.5b Compiler 2016.10 Oct  5 2016
+# Loading instances from student_circuit_v.sdo
+# Loading altera_ver.PRIM_GDFF_LOW
+# Loading timing data from student_circuit_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /midterm_1_testbench File: /home/tck290/engr-ece/CME341/old_first_midterm_CME341/simulation/modelsim/student_circuit_testbench.v
+add wave -position insertpoint  \
+sim:/midterm_1_testbench/clk \
+sim:/midterm_1_testbench/clear \
+sim:/midterm_1_testbench/seed \
+sim:/midterm_1_testbench/stimulus \
+sim:/midterm_1_testbench/student_output \
+sim:/midterm_1_testbench/counter_full_bar
+add wave -position insertpoint  \
+sim:/midterm_1_testbench/clk \
+sim:/midterm_1_testbench/clear \
+sim:/midterm_1_testbench/seed \
+sim:/midterm_1_testbench/stimulus \
+sim:/midterm_1_testbench/student_output \
+sim:/midterm_1_testbench/counter_full_bar \
+sim:/midterm_1_testbench/accumulator_output
+add wave -position insertpoint  \
+sim:/midterm_1_testbench/clk \
+sim:/midterm_1_testbench/clear \
+sim:/midterm_1_testbench/seed \
+sim:/midterm_1_testbench/stimulus \
+sim:/midterm_1_testbench/student_output \
+sim:/midterm_1_testbench/counter_full_bar \
+sim:/midterm_1_testbench/accumulator_output
+run -all
+# ** Note: $stop    : /home/tck290/engr-ece/CME341/old_first_midterm_CME341/simulation/modelsim/student_circuit_testbench.v(16)
+#    Time: 640 us  Iteration: 0  Instance: /midterm_1_testbench
+# Break in Module midterm_1_testbench at /home/tck290/engr-ece/CME341/old_first_midterm_CME341/simulation/modelsim/student_circuit_testbench.v line 16
+# Compile of student_circuit.vo was successful.
+# Compile of student_circuit_testbench.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -L cycloneive_ver -L altera_ver -L altera_mf_ver work.midterm_1_testbench
+# End time: 11:16:48 on Oct 05,2018, Elapsed time: 0:03:18
+# Errors: 0, Warnings: 0
+# vsim -L cycloneive_ver -L altera_ver -L altera_mf_ver work.midterm_1_testbench 
+# Start time: 11:16:48 on Oct 05,2018
+# Loading work.midterm_1_testbench
+# Loading work.student_circuit
+# Loading work.hard_block
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_clkctrl
+# Loading cycloneive_ver.cycloneive_mux41
+# Loading cycloneive_ver.cycloneive_ena_reg
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading altera_ver.dffeas
+# SDF 10.5b Compiler 2016.10 Oct  5 2016
+# Loading instances from student_circuit_v.sdo
+# Loading altera_ver.PRIM_GDFF_LOW
+# Loading timing data from student_circuit_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /midterm_1_testbench File: /home/tck290/engr-ece/CME341/old_first_midterm_CME341/simulation/modelsim/student_circuit_testbench.v
+add wave -position insertpoint  \
+sim:/midterm_1_testbench/clk \
+sim:/midterm_1_testbench/clear \
+sim:/midterm_1_testbench/seed \
+sim:/midterm_1_testbench/stimulus \
+sim:/midterm_1_testbench/student_output \
+sim:/midterm_1_testbench/counter_full_bar \
+sim:/midterm_1_testbench/accumulator_output
+run -all
+# ** Note: $stop    : /home/tck290/engr-ece/CME341/old_first_midterm_CME341/simulation/modelsim/student_circuit_testbench.v(16)
+#    Time: 640 us  Iteration: 0  Instance: /midterm_1_testbench
+# Break in Module midterm_1_testbench at /home/tck290/engr-ece/CME341/old_first_midterm_CME341/simulation/modelsim/student_circuit_testbench.v line 16
+# Compile of student_circuit.vo was successful.
+# Compile of student_circuit_testbench.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -L cycloneive_ver -L altera_ver -L altera_mf_ver work.midterm_1_testbench
+# End time: 11:18:43 on Oct 05,2018, Elapsed time: 0:01:55
+# Errors: 0, Warnings: 0
+# vsim -L cycloneive_ver -L altera_ver -L altera_mf_ver work.midterm_1_testbench 
+# Start time: 11:18:43 on Oct 05,2018
+# Loading work.midterm_1_testbench
+# Loading work.student_circuit
+# Loading work.hard_block
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_clkctrl
+# Loading cycloneive_ver.cycloneive_mux41
+# Loading cycloneive_ver.cycloneive_ena_reg
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading altera_ver.dffeas
+# SDF 10.5b Compiler 2016.10 Oct  5 2016
+# Loading instances from student_circuit_v.sdo
+# Loading altera_ver.PRIM_GDFF_LOW
+# Loading timing data from student_circuit_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /midterm_1_testbench File: /home/tck290/engr-ece/CME341/old_first_midterm_CME341/simulation/modelsim/student_circuit_testbench.v
+add wave -position insertpoint  \
+sim:/midterm_1_testbench/clk \
+sim:/midterm_1_testbench/clear \
+sim:/midterm_1_testbench/seed \
+sim:/midterm_1_testbench/stimulus \
+sim:/midterm_1_testbench/student_output \
+sim:/midterm_1_testbench/counter_full_bar \
+sim:/midterm_1_testbench/accumulator_output
+run -all
+# ** Note: $stop    : /home/tck290/engr-ece/CME341/old_first_midterm_CME341/simulation/modelsim/student_circuit_testbench.v(16)
+#    Time: 640 us  Iteration: 0  Instance: /midterm_1_testbench
+# Break in Module midterm_1_testbench at /home/tck290/engr-ece/CME341/old_first_midterm_CME341/simulation/modelsim/student_circuit_testbench.v line 16
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf /home/tck290/engr-ece/CME341/old_first_midterm_CME341/simulation/modelsim/wave.do
+vsim -L cycloneive_ver -L altera_ver -L altera_mf_ver work.midterm_1_testbench
+# End time: 11:19:32 on Oct 05,2018, Elapsed time: 0:00:49
+# Errors: 0, Warnings: 0
+# vsim -L cycloneive_ver -L altera_ver -L altera_mf_ver work.midterm_1_testbench 
+# Start time: 11:19:32 on Oct 05,2018
+# Loading work.midterm_1_testbench
+# Loading work.student_circuit
+# Loading work.hard_block
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_clkctrl
+# Loading cycloneive_ver.cycloneive_mux41
+# Loading cycloneive_ver.cycloneive_ena_reg
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading altera_ver.dffeas
+# Loading instances from student_circuit_v.sdo
+# Loading altera_ver.PRIM_GDFF_LOW
+# Loading timing data from student_circuit_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /midterm_1_testbench File: /home/tck290/engr-ece/CME341/old_first_midterm_CME341/simulation/modelsim/student_circuit_testbench.v
+do wave.do
+run -all
+# ** Note: $stop    : /home/tck290/engr-ece/CME341/old_first_midterm_CME341/simulation/modelsim/student_circuit_testbench.v(16)
+#    Time: 640 us  Iteration: 0  Instance: /midterm_1_testbench
+# Break in Module midterm_1_testbench at /home/tck290/engr-ece/CME341/old_first_midterm_CME341/simulation/modelsim/student_circuit_testbench.v line 16
+# Compile of student_circuit.vo was successful.
+# Compile of student_circuit_testbench.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -L cycloneive_ver -L altera_ver -L altera_mf_ver work.midterm_1_testbench
+# End time: 11:20:04 on Oct 05,2018, Elapsed time: 0:00:32
+# Errors: 0, Warnings: 0
+# vsim -L cycloneive_ver -L altera_ver -L altera_mf_ver work.midterm_1_testbench 
+# Start time: 11:20:04 on Oct 05,2018
+# Loading work.midterm_1_testbench
+# Loading work.student_circuit
+# Loading work.hard_block
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_clkctrl
+# Loading cycloneive_ver.cycloneive_mux41
+# Loading cycloneive_ver.cycloneive_ena_reg
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading altera_ver.dffeas
+# Loading instances from student_circuit_v.sdo
+# Loading altera_ver.PRIM_GDFF_LOW
+# Loading timing data from student_circuit_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /midterm_1_testbench File: /home/tck290/engr-ece/CME341/old_first_midterm_CME341/simulation/modelsim/student_circuit_testbench.v
+do wave.do
+# End time: 11:20:16 on Oct 05,2018, Elapsed time: 0:00:12
+# Errors: 0, Warnings: 0

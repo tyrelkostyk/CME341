@@ -1,0 +1,41 @@
+module microprocessor(clk, reset, i_pins, 
+							NOPC8, NOPCF, NOPD8, NOPDF, zero_flag,
+							o_reg, x0, x1, y0, y1, r, m, i,
+							pm_address, pm_data, pc, from_PS, ir, from_ID, from_CU,
+							reg_enables);
+input clk, reset;
+input [3:0] i_pins;
+output wire NOPC8, NOPCF, NOPD8, NOPDF, zero_flag;
+output reg [3:0] i;
+output wire [3:0] o_reg, x0, x1, y0, y1, r, m;
+output wire [7:0] pm_address, pm_data, pc, from_PS, ir, from_ID, from_CU;
+output wire [8:0] reg_enables;
+
+reg sync_reset;
+wire jump, conditional_jump, i_mux_select, y_reg_select, x_reg_select;
+wire [3:0] LS_nibble_ir, data_mem_addr, data_bus, dm, source_select;
+
+always @ *
+i = data_mem_addr;
+
+always @ (posedge clk)
+sync_reset <= reset;
+
+program_memory prog_mem(.clock(~clk), .address(pm_address), .q(pm_data));
+
+Instruction_decoder instr_decoder(.clk(clk), .sync_reset(sync_reset), .next_instr(pm_data), .jmp(jump), .jmp_nz(conditional_jump),
+												.ir_nibble(LS_nibble_ir), .i_sel(i_mux_select), .y_sel(y_reg_select),
+												.x_sel(x_reg_select), .source_sel(source_select), .reg_en(reg_enables),
+												.ir(ir), .from_ID(from_ID), .NOPC8(NOPC8), .NOPCF(NOPCF), .NOPD8(NOPD8), .NOPDF(NOPDF));
+									
+program_sequencer prog_sequencer(.clk(clk), .sync_reset(sync_reset), .pm_addr(pm_address), .jmp(jump), .jmp_nz(conditional_jump),
+											.jmp_addr(LS_nibble_ir), .dont_jmp(zero_flag), .pc(pc), .from_PS(from_PS));
+									
+Computational_unit comp_unit(.clk(clk), .sync_reset(sync_reset), .r_eq_0(zero_flag), .i_pins(i_pins),
+										.ir_nibble(LS_nibble_ir), .i_sel(i_mux_select), .y_sel(y_reg_select), .x_sel(x_reg_select),
+										.source_sel(source_select), .reg_en(reg_enables), .i(data_mem_addr), .data_bus(data_bus),
+										.dm(dm), .o_reg(o_reg), .from_CU(from_CU), .x0(x0), .x1(x1), .y0(y0), .y1(y1), .r(r), .m(m));
+
+data_memory data_mem(.clock(~clk), .address(data_mem_addr), .data(data_bus), .q(dm), .wren(reg_enables[7]));
+
+endmodule

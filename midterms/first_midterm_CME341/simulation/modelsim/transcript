@@ -1,0 +1,39 @@
+# Loading project student_circuit_testbench
+# Compile of student_circuit.vo was successful.
+# Compile of midterm_1_testbench.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.midterm_1_testbench -L cycloneive_ver -L altera_ver -L altera_mf_ver
+# vsim work.midterm_1_testbench -L cycloneive_ver -L altera_ver -L altera_mf_ver 
+# Start time: 21:12:24 on Oct 04,2018
+# Loading work.midterm_1_testbench
+# Loading work.student_circuit
+# Loading work.hard_block
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# SDF 10.5b Compiler 2016.10 Oct  5 2016
+# Loading instances from student_circuit_v.sdo
+# Loading timing data from student_circuit_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /midterm_1_testbench File: /home/tck290/engr-ece/CME341/first_midterm_CME341/simulation/modelsim/midterm_1_testbench.v
+add wave -position insertpoint  \
+sim:/midterm_1_testbench/clk \
+sim:/midterm_1_testbench/clear \
+sim:/midterm_1_testbench/seed \
+sim:/midterm_1_testbench/stimulus \
+sim:/midterm_1_testbench/student_output \
+sim:/midterm_1_testbench/counter_full_bar \
+sim:/midterm_1_testbench/accumulator_output
+run -all
+# ** Note: $stop    : /home/tck290/engr-ece/CME341/first_midterm_CME341/simulation/modelsim/midterm_1_testbench.v(16)
+#    Time: 640 us  Iteration: 0  Instance: /midterm_1_testbench
+# Break in Module midterm_1_testbench at /home/tck290/engr-ece/CME341/first_midterm_CME341/simulation/modelsim/midterm_1_testbench.v line 16
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf /home/tck290/engr-ece/CME341/first_midterm_CME341/simulation/modelsim/wave.do
+# Load canceled
+do /home/tck290/engr-ece/CME341/first_midterm_CME341/simulation/modelsim/wave.do
+do /home/tck290/engr-ece/CME341/first_midterm_CME341/simulation/modelsim/wave.do
+run -all
+# Break key hit
+# Simulation stop requested.
+# End time: 21:15:48 on Oct 04,2018, Elapsed time: 0:03:24
+# Errors: 1, Warnings: 0
