@@ -1,0 +1,370 @@
+# Loading project data_memory_testbench
+# Compile of micro.vo was successful.
+# Compile of data_memory_testbench.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.data_memory_testbench -L altera_mf_ver -L altera_ver -L cycloneive_ver
+# vsim work.data_memory_testbench -L altera_mf_ver -L altera_ver -L cycloneive_ver 
+# Start time: 17:13:20 on Dec 12,2018
+# Loading work.data_memory_testbench
+# Loading work.data_memory
+# Loading work.hard_block
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_clkctrl
+# Loading cycloneive_ver.cycloneive_mux41
+# Loading cycloneive_ver.cycloneive_ena_reg
+# Loading cycloneive_ver.cycloneive_ram_block
+# Loading cycloneive_ver.cycloneive_ram_register
+# Loading cycloneive_ver.cycloneive_ram_pulse_generator
+# SDF 10.5b Compiler 2016.10 Oct  5 2016
+# Loading instances from micro_v.sdo
+# Loading timing data from micro_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /data_memory_testbench File: /home/tck290/engr-ece/CME341/micro/simulation/modelsim/data_memory_testbench.v
+add wave -position insertpoint  \
+sim:/data_memory_testbench/addr \
+sim:/data_memory_testbench/data \
+sim:/data_memory_testbench/wren \
+sim:/data_memory_testbench/clk \
+sim:/data_memory_testbench/q \
+sim:/data_memory_testbench/count \
+sim:/data_memory_testbench/result
+run -all
+# ** Note: $stop    : /home/tck290/engr-ece/CME341/micro/simulation/modelsim/data_memory_testbench.v(10)
+#    Time: 20 us  Iteration: 0  Instance: /data_memory_testbench
+# Break in Module data_memory_testbench at /home/tck290/engr-ece/CME341/micro/simulation/modelsim/data_memory_testbench.v line 10
+quit -sim
+# End time: 17:14:55 on Dec 12,2018, Elapsed time: 0:01:35
+# Errors: 0, Warnings: 0
+# Compile of micro.vo was successful.
+# Compile of data_memory_testbench.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -L altera_mf_ver -L altera_ver -L cycloneive_ver work.data_memory_testbench
+# vsim -L altera_mf_ver -L altera_ver -L cycloneive_ver work.data_memory_testbench 
+# Start time: 17:15:05 on Dec 12,2018
+# Loading work.data_memory_testbench
+# Loading work.data_memory
+# Loading work.hard_block
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_clkctrl
+# Loading cycloneive_ver.cycloneive_mux41
+# Loading cycloneive_ver.cycloneive_ena_reg
+# Loading cycloneive_ver.cycloneive_ram_block
+# Loading cycloneive_ver.cycloneive_ram_register
+# Loading cycloneive_ver.cycloneive_ram_pulse_generator
+# Loading instances from micro_v.sdo
+# Loading timing data from micro_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /data_memory_testbench File: /home/tck290/engr-ece/CME341/micro/simulation/modelsim/data_memory_testbench.v
+add wave -position insertpoint  \
+sim:/data_memory_testbench/addr \
+sim:/data_memory_testbench/data \
+sim:/data_memory_testbench/wren \
+sim:/data_memory_testbench/clk \
+sim:/data_memory_testbench/q \
+sim:/data_memory_testbench/count \
+sim:/data_memory_testbench/result
+run -all
+# ** Note: $stop    : /home/tck290/engr-ece/CME341/micro/simulation/modelsim/data_memory_testbench.v(10)
+#    Time: 20 us  Iteration: 0  Instance: /data_memory_testbench
+# Break in Module data_memory_testbench at /home/tck290/engr-ece/CME341/micro/simulation/modelsim/data_memory_testbench.v line 10
+# Compile of micro.vo was successful.
+# Compile of data_memory_testbench.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -L altera_mf_ver -L altera_ver -L cycloneive_ver work.data_memory_testbench
+# End time: 17:20:05 on Dec 12,2018, Elapsed time: 0:05:00
+# Errors: 0, Warnings: 0
+# vsim -L altera_mf_ver -L altera_ver -L cycloneive_ver work.data_memory_testbench 
+# Start time: 17:20:05 on Dec 12,2018
+# Loading work.data_memory_testbench
+# Loading work.data_memory
+# Loading work.hard_block
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_clkctrl
+# Loading cycloneive_ver.cycloneive_mux41
+# Loading cycloneive_ver.cycloneive_ena_reg
+# Loading cycloneive_ver.cycloneive_ram_block
+# Loading cycloneive_ver.cycloneive_ram_register
+# Loading cycloneive_ver.cycloneive_ram_pulse_generator
+# Loading instances from micro_v.sdo
+# Loading timing data from micro_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /data_memory_testbench File: /home/tck290/engr-ece/CME341/micro/simulation/modelsim/data_memory_testbench.v
+add wave -position insertpoint  \
+sim:/data_memory_testbench/addr \
+sim:/data_memory_testbench/data \
+sim:/data_memory_testbench/wren \
+sim:/data_memory_testbench/clk \
+sim:/data_memory_testbench/q \
+sim:/data_memory_testbench/clk_in \
+sim:/data_memory_testbench/count \
+sim:/data_memory_testbench/result
+run -all
+# ** Note: $stop    : /home/tck290/engr-ece/CME341/micro/simulation/modelsim/data_memory_testbench.v(10)
+#    Time: 20 us  Iteration: 0  Instance: /data_memory_testbench
+# Break in Module data_memory_testbench at /home/tck290/engr-ece/CME341/micro/simulation/modelsim/data_memory_testbench.v line 10
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf /home/tck290/engr-ece/CME341/micro/simulation/modelsim/datmem_wave.do
+# Compile of micro.vo was successful.
+# Compile of data_memory_testbench.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -L altera_mf_ver -L altera_ver -L cycloneive_ver work.data_memory_testbench
+# End time: 17:21:52 on Dec 12,2018, Elapsed time: 0:01:47
+# Errors: 0, Warnings: 0
+# vsim -L altera_mf_ver -L altera_ver -L cycloneive_ver work.data_memory_testbench 
+# Start time: 17:21:52 on Dec 12,2018
+# Loading work.data_memory_testbench
+# Loading work.data_memory
+# Loading work.hard_block
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_clkctrl
+# Loading cycloneive_ver.cycloneive_mux41
+# Loading cycloneive_ver.cycloneive_ena_reg
+# Loading cycloneive_ver.cycloneive_ram_block
+# Loading cycloneive_ver.cycloneive_ram_register
+# Loading cycloneive_ver.cycloneive_ram_pulse_generator
+# Loading instances from micro_v.sdo
+# Loading timing data from micro_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /data_memory_testbench File: /home/tck290/engr-ece/CME341/micro/simulation/modelsim/data_memory_testbench.v
+do datmem_wave.do
+run -all
+# ** Note: $stop    : /home/tck290/engr-ece/CME341/micro/simulation/modelsim/data_memory_testbench.v(10)
+#    Time: 20 us  Iteration: 0  Instance: /data_memory_testbench
+# Break in Module data_memory_testbench at /home/tck290/engr-ece/CME341/micro/simulation/modelsim/data_memory_testbench.v line 10
+do datmem_wave.do
+# Compile of micro.vo was successful.
+# Compile of data_memory_testbench.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -L altera_mf_ver -L altera_ver -L cycloneive_ver work.data_memory_testbench
+# End time: 17:22:37 on Dec 12,2018, Elapsed time: 0:00:45
+# Errors: 0, Warnings: 0
+# vsim -L altera_mf_ver -L altera_ver -L cycloneive_ver work.data_memory_testbench 
+# Start time: 17:22:37 on Dec 12,2018
+# Loading work.data_memory_testbench
+# Loading work.data_memory
+# Loading work.hard_block
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_clkctrl
+# Loading cycloneive_ver.cycloneive_mux41
+# Loading cycloneive_ver.cycloneive_ena_reg
+# Loading cycloneive_ver.cycloneive_ram_block
+# Loading cycloneive_ver.cycloneive_ram_register
+# Loading cycloneive_ver.cycloneive_ram_pulse_generator
+# Loading instances from micro_v.sdo
+# Loading timing data from micro_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /data_memory_testbench File: /home/tck290/engr-ece/CME341/micro/simulation/modelsim/data_memory_testbench.v
+run -all
+# ** Note: $stop    : /home/tck290/engr-ece/CME341/micro/simulation/modelsim/data_memory_testbench.v(10)
+#    Time: 10 us  Iteration: 0  Instance: /data_memory_testbench
+# Break in Module data_memory_testbench at /home/tck290/engr-ece/CME341/micro/simulation/modelsim/data_memory_testbench.v line 10
+do datmem_wave.do
+vsim -L altera_mf_ver -L altera_ver -L cycloneive_ver work.data_memory_testbench
+# End time: 17:22:50 on Dec 12,2018, Elapsed time: 0:00:13
+# Errors: 0, Warnings: 0
+# vsim -L altera_mf_ver -L altera_ver -L cycloneive_ver work.data_memory_testbench 
+# Start time: 17:22:50 on Dec 12,2018
+# Loading work.data_memory_testbench
+# Loading work.data_memory
+# Loading work.hard_block
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_clkctrl
+# Loading cycloneive_ver.cycloneive_mux41
+# Loading cycloneive_ver.cycloneive_ena_reg
+# Loading cycloneive_ver.cycloneive_ram_block
+# Loading cycloneive_ver.cycloneive_ram_register
+# Loading cycloneive_ver.cycloneive_ram_pulse_generator
+# Loading instances from micro_v.sdo
+# Loading timing data from micro_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /data_memory_testbench File: /home/tck290/engr-ece/CME341/micro/simulation/modelsim/data_memory_testbench.v
+do datmem_wave.do
+run -all
+# ** Note: $stop    : /home/tck290/engr-ece/CME341/micro/simulation/modelsim/data_memory_testbench.v(10)
+#    Time: 10 us  Iteration: 0  Instance: /data_memory_testbench
+# Break in Module data_memory_testbench at /home/tck290/engr-ece/CME341/micro/simulation/modelsim/data_memory_testbench.v line 10
+# Compile of micro.vo was successful.
+# Compile of data_memory_testbench.v was successful.
+# 2 compiles, 0 failed with no errors.
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf /home/tck290/engr-ece/CME341/micro/simulation/modelsim/datmem_wave.do
+vsim -L altera_mf_ver -L altera_ver -L cycloneive_ver work.data_memory_testbench
+# End time: 17:26:05 on Dec 12,2018, Elapsed time: 0:03:15
+# Errors: 0, Warnings: 0
+# vsim -L altera_mf_ver -L altera_ver -L cycloneive_ver work.data_memory_testbench 
+# Start time: 17:26:05 on Dec 12,2018
+# Loading work.data_memory_testbench
+# Loading work.data_memory
+# Loading work.hard_block
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_clkctrl
+# Loading cycloneive_ver.cycloneive_mux41
+# Loading cycloneive_ver.cycloneive_ena_reg
+# Loading cycloneive_ver.cycloneive_ram_block
+# Loading cycloneive_ver.cycloneive_ram_register
+# Loading cycloneive_ver.cycloneive_ram_pulse_generator
+# Loading instances from micro_v.sdo
+# Loading timing data from micro_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /data_memory_testbench File: /home/tck290/engr-ece/CME341/micro/simulation/modelsim/data_memory_testbench.v
+run -all
+# ** Note: $stop    : /home/tck290/engr-ece/CME341/micro/simulation/modelsim/data_memory_testbench.v(10)
+#    Time: 10 us  Iteration: 0  Instance: /data_memory_testbench
+# Break in Module data_memory_testbench at /home/tck290/engr-ece/CME341/micro/simulation/modelsim/data_memory_testbench.v line 10
+do datmem_wave.do
+run -all
+# Break key hit
+# Simulation stop requested.
+quit -sim
+# End time: 17:26:31 on Dec 12,2018, Elapsed time: 0:00:26
+# Errors: 0, Warnings: 0
+vsim -L altera_mf_ver -L altera_ver -L cycloneive_ver work.data_memory_testbench
+# vsim -L altera_mf_ver -L altera_ver -L cycloneive_ver work.data_memory_testbench 
+# Start time: 17:26:37 on Dec 12,2018
+# Loading work.data_memory_testbench
+# Loading work.data_memory
+# Loading work.hard_block
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_clkctrl
+# Loading cycloneive_ver.cycloneive_mux41
+# Loading cycloneive_ver.cycloneive_ena_reg
+# Loading cycloneive_ver.cycloneive_ram_block
+# Loading cycloneive_ver.cycloneive_ram_register
+# Loading cycloneive_ver.cycloneive_ram_pulse_generator
+# Loading instances from micro_v.sdo
+# Loading timing data from micro_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /data_memory_testbench File: /home/tck290/engr-ece/CME341/micro/simulation/modelsim/data_memory_testbench.v
+do datmem_wave.do
+run -all
+# ** Note: $stop    : /home/tck290/engr-ece/CME341/micro/simulation/modelsim/data_memory_testbench.v(10)
+#    Time: 10 us  Iteration: 0  Instance: /data_memory_testbench
+# Break in Module data_memory_testbench at /home/tck290/engr-ece/CME341/micro/simulation/modelsim/data_memory_testbench.v line 10
+do datmem_wave.do
+quit -sim
+# End time: 17:27:22 on Dec 12,2018, Elapsed time: 0:00:45
+# Errors: 0, Warnings: 0
+vsim -L altera_mf_ver -L altera_ver -L cycloneive_ver work.data_memory_testbench
+# vsim -L altera_mf_ver -L altera_ver -L cycloneive_ver work.data_memory_testbench 
+# Start time: 17:27:26 on Dec 12,2018
+# Loading work.data_memory_testbench
+# Loading work.data_memory
+# Loading work.hard_block
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_clkctrl
+# Loading cycloneive_ver.cycloneive_mux41
+# Loading cycloneive_ver.cycloneive_ena_reg
+# Loading cycloneive_ver.cycloneive_ram_block
+# Loading cycloneive_ver.cycloneive_ram_register
+# Loading cycloneive_ver.cycloneive_ram_pulse_generator
+# Loading instances from micro_v.sdo
+# Loading timing data from micro_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /data_memory_testbench File: /home/tck290/engr-ece/CME341/micro/simulation/modelsim/data_memory_testbench.v
+add wave -position insertpoint  \
+sim:/data_memory_testbench/addr \
+sim:/data_memory_testbench/data \
+sim:/data_memory_testbench/wren \
+sim:/data_memory_testbench/clk \
+sim:/data_memory_testbench/q \
+sim:/data_memory_testbench/clk_in \
+sim:/data_memory_testbench/count \
+sim:/data_memory_testbench/result
+run -all
+# ** Note: $stop    : /home/tck290/engr-ece/CME341/micro/simulation/modelsim/data_memory_testbench.v(10)
+#    Time: 10 us  Iteration: 0  Instance: /data_memory_testbench
+# Break in Module data_memory_testbench at /home/tck290/engr-ece/CME341/micro/simulation/modelsim/data_memory_testbench.v line 10
+do datmem_wave.do
+# Compile of micro.vo was successful.
+# Compile of data_memory_testbench.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -L altera_mf_ver -L altera_ver -L cycloneive_ver work.data_memory_testbench
+# End time: 17:30:34 on Dec 12,2018, Elapsed time: 0:03:08
+# Errors: 0, Warnings: 0
+# vsim -L altera_mf_ver -L altera_ver -L cycloneive_ver work.data_memory_testbench 
+# Start time: 17:30:34 on Dec 12,2018
+# Loading work.data_memory_testbench
+# Loading work.data_memory
+# Loading work.hard_block
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_clkctrl
+# Loading cycloneive_ver.cycloneive_mux41
+# Loading cycloneive_ver.cycloneive_ena_reg
+# Loading cycloneive_ver.cycloneive_ram_block
+# Loading cycloneive_ver.cycloneive_ram_register
+# Loading cycloneive_ver.cycloneive_ram_pulse_generator
+# Loading instances from micro_v.sdo
+# Loading timing data from micro_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /data_memory_testbench File: /home/tck290/engr-ece/CME341/micro/simulation/modelsim/data_memory_testbench.v
+do datmem_wave.do
+run -all
+# ** Note: $stop    : /home/tck290/engr-ece/CME341/micro/simulation/modelsim/data_memory_testbench.v(10)
+#    Time: 10 us  Iteration: 0  Instance: /data_memory_testbench
+# Break in Module data_memory_testbench at /home/tck290/engr-ece/CME341/micro/simulation/modelsim/data_memory_testbench.v line 10
+# Compile of micro.vo was successful.
+# Compile of data_memory_testbench.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -L altera_mf_ver -L altera_ver -L cycloneive_ver work.data_memory_testbench
+# End time: 17:49:24 on Dec 12,2018, Elapsed time: 0:18:50
+# Errors: 0, Warnings: 0
+# vsim -L altera_mf_ver -L altera_ver -L cycloneive_ver work.data_memory_testbench 
+# Start time: 17:49:24 on Dec 12,2018
+# Loading work.data_memory_testbench
+# Loading work.data_memory
+# Loading work.hard_block
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_clkctrl
+# Loading cycloneive_ver.cycloneive_mux41
+# Loading cycloneive_ver.cycloneive_ena_reg
+# Loading cycloneive_ver.cycloneive_ram_block
+# Loading cycloneive_ver.cycloneive_ram_register
+# Loading cycloneive_ver.cycloneive_ram_pulse_generator
+# Loading instances from micro_v.sdo
+# Loading timing data from micro_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /data_memory_testbench File: /home/tck290/engr-ece/CME341/micro/simulation/modelsim/data_memory_testbench.v
+do datmem_wave.do
+run -all
+# ** Note: $stop    : /home/tck290/engr-ece/CME341/micro/simulation/modelsim/data_memory_testbench.v(10)
+#    Time: 10 us  Iteration: 0  Instance: /data_memory_testbench
+# Break in Module data_memory_testbench at /home/tck290/engr-ece/CME341/micro/simulation/modelsim/data_memory_testbench.v line 10
+# Compile of micro.vo was successful.
+# Compile of data_memory_testbench.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -L altera_mf_ver -L altera_ver -L cycloneive_ver work.data_memory_testbench
+# End time: 17:51:20 on Dec 12,2018, Elapsed time: 0:01:56
+# Errors: 0, Warnings: 0
+# vsim -L altera_mf_ver -L altera_ver -L cycloneive_ver work.data_memory_testbench 
+# Start time: 17:51:20 on Dec 12,2018
+# Loading work.data_memory_testbench
+# Loading work.data_memory
+# Loading work.hard_block
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_clkctrl
+# Loading cycloneive_ver.cycloneive_mux41
+# Loading cycloneive_ver.cycloneive_ena_reg
+# Loading cycloneive_ver.cycloneive_ram_block
+# Loading cycloneive_ver.cycloneive_ram_register
+# Loading cycloneive_ver.cycloneive_ram_pulse_generator
+# Loading instances from micro_v.sdo
+# Loading timing data from micro_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /data_memory_testbench File: /home/tck290/engr-ece/CME341/micro/simulation/modelsim/data_memory_testbench.v
+do datmem_wave.do
+run -all
+# ** Note: $stop    : /home/tck290/engr-ece/CME341/micro/simulation/modelsim/data_memory_testbench.v(10)
+#    Time: 7500 ns  Iteration: 0  Instance: /data_memory_testbench
+# Break in Module data_memory_testbench at /home/tck290/engr-ece/CME341/micro/simulation/modelsim/data_memory_testbench.v line 10
+# End time: 17:52:47 on Dec 12,2018, Elapsed time: 0:01:27
+# Errors: 0, Warnings: 0

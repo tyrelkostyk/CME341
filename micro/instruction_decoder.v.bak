@@ -1,0 +1,9 @@
+module instruction_decoder (
+	input [7:0] next_instr,
+	input clk, sync_reset,
+	output jmp, jmp_nz,
+	output i_sel, y_sel, x_sel,
+	output [3:0] source_sel,
+	output [3:0] ir_nibble,
+	output reg [8:0] reg_en);
+

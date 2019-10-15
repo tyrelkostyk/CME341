@@ -1,0 +1,16 @@
+module computational_unit (
+	input clk, sync_reset,
+	input [3:0] source_sel, nibble_ir, i_pins, dm,
+	input i_sel, y_sel, x_sel, 
+	input [8:0] reg_en,
+	output [3:0] reg o_reg, data_bus, i,
+	output reg r_eq_0
+	);
+
+// 4-bit data_bus output
+case(source_sel)
+	4'd00: data_bus = 
+	4'b01:
+	4'd02:
+	
+endcase
